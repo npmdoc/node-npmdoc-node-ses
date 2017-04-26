@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### api documentation for  [node-ses (v2.0.5)](https://github.com/aheckmann/node-ses#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-node-ses.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-node-ses) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-node-ses.svg)](https://travis-ci.org/npmdoc/node-npmdoc-node-ses)",
+    "description": "#### basic api documentation for  [node-ses (v2.0.5)](https://github.com/aheckmann/node-ses#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-node-ses.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-node-ses) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-node-ses.svg)](https://travis-ci.org/npmdoc/node-npmdoc-node-ses)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "node-ses": "*",
@@ -35,5 +35,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.26"
 }
